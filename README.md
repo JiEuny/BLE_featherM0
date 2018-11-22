@@ -22,7 +22,7 @@ https://learn.adafruit.com/introducing-the-adafruit-bluefruit-le-uart-friend/sof
   - spi 통신 코드를 주석처리하고 uart 통신 코드의 주석을 풀어 Serial1을 디파인 해 주어야 함
   
 ----------------------------------------------------------------------------------------------------
-*/
+
 #define BLUEFRUIT_HWSERIAL_NAME      Serial1
 /* ...or hardware serial, which does not need the RTS/CTS pins. Uncomment this line */
 Adafruit_BluefruitLE_UART ble(BLUEFRUIT_HWSERIAL_NAME, BLUEFRUIT_UART_MODE_PIN);
