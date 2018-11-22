@@ -6,6 +6,7 @@ created by JiEun Lee
 email : love9ly@gmail.com
 
 1. 라이브러리 다운로드 및 추가
+
 https://learn.adafruit.com/introducing-the-adafruit-bluefruit-le-uart-friend/software
 
 2. ble가 잘 작동하는지 확인하기 위해 예제의 atcommand 샘플을 우선 테스트
