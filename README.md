@@ -23,8 +23,8 @@ https://learn.adafruit.com/introducing-the-adafruit-bluefruit-le-uart-friend/sof
   
 ----------------------------------------------------------------------------------------------------
 
-#define BLUEFRUIT_HWSERIAL_NAME      Serial1
 /* ...or hardware serial, which does not need the RTS/CTS pins. Uncomment this line */
+#define BLUEFRUIT_HWSERIAL_NAME      Serial1
 Adafruit_BluefruitLE_UART ble(BLUEFRUIT_HWSERIAL_NAME, BLUEFRUIT_UART_MODE_PIN);
 
 /* ...hardware SPI, using SCK/MOSI/MISO hardware SPI pins and then user selected CS/IRQ/RST */
