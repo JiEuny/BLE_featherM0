@@ -11,11 +11,17 @@ https://learn.adafruit.com/introducing-the-adafruit-bluefruit-le-uart-friend/sof
 2. ble가 잘 작동하는지 확인하기 위해 예제의 atcommand 샘플을 우선 테스트
 
 3. 회로도를 따라 feather 보드와 ble 모듈을 구성한다.
+
             feather m0    ble
+            
               rx          tx
+              
               tx          rx
+              
               usb         vin
+              
               gnd         gnd
+              
               gnd         cts
   
 *특히 CTS핀은 반드시 GND로 물려야 하며, 모드 스위치는 CMD 모드에 둬야함
