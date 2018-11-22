@@ -1,6 +1,8 @@
 # BLE_featherM0
 bluefruit le (BLE) module + adafruit feather M0
+
 created by JiEun Lee 
+
 email : love9ly@gmail.com
 
 1. 라이브러리 다운로드 및 추가
